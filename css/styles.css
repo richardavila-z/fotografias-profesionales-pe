@@ -3663,6 +3663,14 @@ textarea.form-control-lg {
   position: fixed !important;
   z-index: 11;
 }
+.enlace-richard{
+
+  text-decoration: none;
+  color: gray;
+  font-weight: 600;
+  cursor: pointer;
+
+}
 
 @media (prefers-reduced-motion: reduce) {
   .nav-link {
