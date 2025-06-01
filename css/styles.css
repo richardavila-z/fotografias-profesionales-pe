@@ -3671,6 +3671,14 @@ textarea.form-control-lg {
   cursor: pointer;
 
 }
+.enlace-richard:hover{
+
+
+  color: rgb(162,62,73);
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 600;
+}
 
 @media (prefers-reduced-motion: reduce) {
   .nav-link {
