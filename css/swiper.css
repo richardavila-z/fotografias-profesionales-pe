@@ -1,0 +1,84 @@
+.swiper-container {
+  width: 80vw; /* 80% del viewport width */
+  height: auto; /* 80% del viewport height */
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden; /* Control del overflow */
+}
+
+.swiper-wrapper {
+  align-items: center; /* Centrado vertical */
+  padding-top: 20px;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Asegura que las imágenes no se desborden */
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Cubre el área manteniendo ratio */
+  object-position: center; /* Centrado de la imagen */
+}
+
+.swiper-button-next, 
+.swiper-button-prev {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  z-index: 10;
+  /* background: rgba(255,255,255,0.7); */
+  /* border-radius: 50%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white !important;
+}
+
+.swiper-pagination {
+  display: none;
+}
+
+/* CARRUSEL AUTOMATICO DE MARCAS */
+
+.slider-logos {
+  width: 100%;
+  overflow: hidden;
+  background: #f5f5f5;
+  padding: 20px 0;
+}
+
+.slider-track {
+  display: flex;
+  width: max-content; /* Ancho según contenido */
+  animation: slide 40s linear infinite;
+}
+
+.slide {
+  flex: 0 0 auto;
+  margin: 0 30px; /* Espacio entre logos */
+  filter:saturate(0.1)
+  opacity(0.7)
+}
+
+.slide:hover{
+  filter: none ;
+}
+
+.slide img {
+  max-height: 60px;
+  width: auto;
+  display: block; /* Evita espacios fantasma */
+  max-height: 40px;
+}
+
+@keyframes slide {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); } /* Desplaza la mitad del ancho */
+}
