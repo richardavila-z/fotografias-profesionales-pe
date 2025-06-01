@@ -79,8 +79,8 @@
     scroll-behavior: smooth;
   }
 }
-
 body {
+  scroll-behavior: smooth;
   margin: 0;
   font-family: var(--bs-body-font-family);
   font-size: var(--bs-body-font-size);
@@ -3612,6 +3612,29 @@ textarea.form-control-lg {
 .bg-primary-212:hover{
   background-color: rgb(162, 62, 73);
 }
+.btn-primary-212{
+  background-color: rgb(162, 62, 73);
+  color: white;
+}
+.btn-primary-212:hover{
+  background-color: #ffffff;
+}
+.btn-primary-pricing{
+  background-color: rgb(162, 62, 73);
+  color: white;
+}
+.btn-primary-pricing:hover{
+  background-color: rgb(137, 52, 62);
+  color: white;
+}
+.btn-primary-pricing-off{
+  border-color: rgb(162, 62, 73);
+  color: rgb(162, 62, 73);
+}
+.btn-primary-pricing-off:hover{
+  background-color: rgb(137, 52, 62);
+  color: white;
+}
 .nav-link {
   display: block;
   padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
@@ -3624,6 +3647,21 @@ textarea.form-control-lg {
 .nav-link:hover{
   text-decoration: underline rgb(162,62,73);
   text-decoration-thickness: 3px;
+}
+
+#features {
+  scroll-margin-top: 330px; 
+}
+#preguntas {
+  scroll-margin-top: 200px; 
+}
+#ubicacion {
+  scroll-margin-top: 150px; 
+}
+.navbar-212{
+  width: 100%;
+  position: fixed !important;
+  z-index: 11;
 }
 
 @media (prefers-reduced-motion: reduce) {

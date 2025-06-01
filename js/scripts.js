@@ -52,3 +52,10 @@ document.addEventListener('DOMContentLoaded', () => {
     sliderTrack.style.transition = '';
   });
 });
+document.getElementById("navbarSupportedContent").addEventListener('click', () => {
+  let div = document.getElementById("navbarSupportedContent");
+    console.log("se hixo click")
+     div.classList.remove("show");
+     div.classList.add("collapse");
+  
+});
