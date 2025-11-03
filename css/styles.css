@@ -1,4 +1,8 @@
 @charset "UTF-8";
+  .encabezado{
+    padding: 5rem;
+    
+  }
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -413,10 +417,7 @@ legend {
 legend + * {
   clear: left;
 }
-  .encabezado{
-    padding: 3rem;
-    
-  }
+
 ::-webkit-datetime-edit-fields-wrapper,
 ::-webkit-datetime-edit-text,
 ::-webkit-datetime-edit-minute,
