@@ -3607,33 +3607,33 @@ textarea.form-control-lg {
   list-style: none;
 }
 .bg-primary-212{
-  background-color: rgb(38, 48, 83);
+  background-color: rgb(41 49 78);
 }
 .bg-primary-212:hover{
-  background-color: rgb(162, 62, 73);
+  background-color: rgb(41 49 78);
 }
 .btn-primary-212{
-  background-color: rgb(162, 62, 73);
+  background-color: rgb(41 49 78);
   color: white;
 }
 .btn-primary-212:hover{
   background-color: #ffffff;
 }
 .btn-primary-pricing{
-  background-color: rgb(162, 62, 73);
+  background-color: rgb(41 49 78);
   color: white;
 }
 .btn-primary-pricing:hover{
-  background-color: rgb(137, 52, 62);
+  background-color: rgb(41 49 78);
   color: white;
 }
 .btn-primary-pricing-off{
-  border-color: rgb(162, 62, 73);
-  color: rgb(162, 62, 73);
+  border-color: rgb(41 49 78);
+  color: rgb(41 49 78);
 }
 .btn-primary-pricing-off:hover{
-  background-color: rgb(137, 52, 62);
-  color: white;
+  background-color: rgb(41 49 78);
+  color: #ffffff;
 }
 .nav-link {
   display: block;
