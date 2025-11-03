@@ -5511,7 +5511,7 @@ textarea.form-control-lg {
 }
 @media (max-width: 767.98px) {
   .encabezado{
-    padding: none;
+    padding: 1rem;
     
   }
       .img-fluid{
