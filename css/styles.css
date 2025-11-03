@@ -413,7 +413,10 @@ legend {
 legend + * {
   clear: left;
 }
-
+  .encabezado{
+    padding: 3rem;
+    
+  }
 ::-webkit-datetime-edit-fields-wrapper,
 ::-webkit-datetime-edit-text,
 ::-webkit-datetime-edit-minute,
@@ -4053,6 +4056,9 @@ textarea.form-control-lg {
   }
 }
 @media (min-width: 1200px) {
+  .img-fluid{
+    transform: translateY(-25%);
+  }
   .navbar-expand-xl {
     flex-wrap: nowrap;
     justify-content: flex-start;
@@ -4971,6 +4977,7 @@ textarea.form-control-lg {
   }
 }
 @media (min-width: 768px) {
+
   .list-group-horizontal-md {
     flex-direction: row;
   }
@@ -5502,6 +5509,13 @@ textarea.form-control-lg {
   }
 }
 @media (max-width: 767.98px) {
+  .encabezado{
+    padding: none;
+    
+  }
+      .img-fluid{
+    position: relative !important;
+  }
   .modal-fullscreen-md-down {
     width: 100vw;
     max-width: none;
