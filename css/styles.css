@@ -4058,7 +4058,7 @@ textarea.form-control-lg {
 }
 @media (min-width: 1200px) {
   .img-fluid{
-    transform: translateY(-25%);
+    transform: translateY(-10%);
   }
   .navbar-expand-xl {
     flex-wrap: nowrap;
