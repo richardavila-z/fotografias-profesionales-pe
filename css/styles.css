@@ -10911,3 +10911,10 @@ textarea.form-control-lg {
   position: absolute;
   width: 70%;
 }
+.swiper-slide img {
+    width: 100%;
+    aspect-ratio: 4 / 5; 
+    object-fit: cover; 
+    object-position: center top; 
+    border-radius: 8px; 
+}
